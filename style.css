@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,400;1,600&family=Poppins&display=swap');
+
+:root {
+    --azul-primario: #202830;
+    --branco-secundário: #D8D9DA;
+    --cinza-letra: #F0F0F0;
+    --laranja-letra: #FF6969;
+    --fonte-titulo: font-family: 'Poppins', sans-serif;
+}
+
+.blocos {
+    display: flex;
+}
+
+.titulo {
+    font-family: var(--fonte-titulo);
+}
+
+.bloco__esquerda {
+    background-color: var(--azul-primario);
+    color: var(--branco-secundário);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+    min-height: 100v;
+}
+
+.texto__bloco__esquerda {
+    text-align: justify;
+    margin-left: 35px;
+    size: 24px;
+    color: var(--cinza-letra);
+}
+
+.botao__SM {
+    background-color: var(--branco-secundário);
+    color: var(--azul-primario);
+}
+
+.bloco__direita {
+    background-color: var(--branco-secundário);
+    color: var(--laranja-letra);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+    min-height: 100vh;
+}
+
+.caixa__bloco__direita {
+    display: flex;
+    background-color: var(--azul-primario);
+    color: var(--branco-secundário);
+    flex-direction: column;
+    padding: 5px 20px;
+}
+
+.label__texto {
+    color: black;
+}
+
+.botao__SU {
+    background-color: var(--azul-primario);
+    color: var(--branco-secundário);
+}
+
+.login {
+    color: black;
+}
